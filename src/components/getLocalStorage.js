@@ -3,4 +3,5 @@ export default function local(key) {
     const arr = JSON.parse(localStorage.getItem('contacts'));
     return arr;
   }
+  return [];
 }

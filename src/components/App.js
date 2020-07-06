@@ -19,6 +19,7 @@ export default class App extends Component {
 
   componentDidMount() {
     const localStorageValue = getLocalStorage('contacts');
+    console.log(localStorageValue);
     this.setState({ contacts: localStorageValue });
   }
 
@@ -63,7 +64,7 @@ export default class App extends Component {
   getFiltredList = () => {
     const { contacts, filter } = this.state;
     const filteredList = contacts.filter(contact =>
-      contact.name.toLocaleLowerCase().includes(filter.toLocaleLowerCase()),
+      contact.name.toLowerCase().includes(filter.toLowerCase()),
     );
     return filteredList;
   };
