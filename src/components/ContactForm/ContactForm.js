@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-import s from './ContactForm.module.css';
 import withThemeContext from '../hoc/withThemeContext.js';
 
 import configStyle from '../../configStyles/configStyle.js';
+
+import s from './ContactForm.module.css';
 
 class ContactForm extends Component {
   state = {

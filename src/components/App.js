@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-import ThemeContext from '../contexts/ThemeContext.js';
-
 import Section from './Section/Section.js';
 import ContactForm from './ContactForm/ContactForm.js';
 import ContactList from './ContactList/ContactList.js';
 import FilterContacts from './FilterContacts/FilterContacts.js';
 import Button from './Button/Button.js';
+
+import ThemeContext from '../contexts/ThemeContext.js';
 
 import getLocalStorage from './getLocalStorage.js';
 

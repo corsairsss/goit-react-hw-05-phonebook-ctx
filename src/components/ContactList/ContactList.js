@@ -1,6 +1,7 @@
 import React from 'react';
 
 import withThemeContext from '../hoc/withThemeContext';
+
 import configStyle from '../../configStyles/configStyle';
 
 import s from './ContactList.module.css';
